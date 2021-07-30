@@ -26,10 +26,9 @@ parameters:
  - name: BrowserType
    displayName: Browser Type
    type: string
-   default: All
+   default: Chrome
    values:
    - Chrome
-   - All
  - name: LoginMethod
    displayName: Login Type # See: https://docs.microsoft.com/en-us/office365/servicedescriptions/office-365-platform-service-description/user-account-management
    type: string
